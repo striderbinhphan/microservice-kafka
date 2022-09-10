@@ -16,9 +16,11 @@ libraries/**/build
 libraries/**/dist
 services/**/build
 services/**/dist
+dist
 
 # Tests
 libraries/**/fixtures
 libraries/**/coverage
 services/**/fixtures
 services/**/coverage
+dist

@@ -32,6 +32,8 @@
 		"sourceType": "module"
 	},
 	"rules": {
-		"@typescript-eslint/strict-boolean-expressions": "off"
+		"@typescript-eslint/strict-boolean-expressions": "off",
+		"@eslint-disable-next-line @typescript-eslint/no-unused-vars": "off",
+    "import/no-duplicates": ["off", {"considerQueryString": true}]
 	}
 }

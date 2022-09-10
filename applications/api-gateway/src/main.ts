@@ -1,11 +1,7 @@
 import { Logger } from '@nestjs/common';
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
-import {
-  productionPort,
-  serverName,
-  serverVersion,
-} from './common/contants/server';
+import { productionPort, serverName, serverVersion } from './common/contants/server';
 
 const logger: Logger = new Logger(`${serverName}@${serverVersion}`);
 async function bootstrap() {

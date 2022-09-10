@@ -28,7 +28,7 @@
 		"typescript": "*"
 	},
 	"workspaces": [
-		"packages/*",
+		"libs/*",
 		"applications/*"
 	]
 }
